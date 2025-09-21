@@ -19,7 +19,7 @@ export default function TodoInput() {
     if (newTodo.trim()) {
       try {
         await addTodo({
-          text: newTodo,
+          text: newTodo.trim(),
         });
 
         setNewTodo("");
