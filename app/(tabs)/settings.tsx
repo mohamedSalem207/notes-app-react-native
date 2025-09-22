@@ -44,7 +44,6 @@ export default function SettingsScreen() {
           <DangerZone />
         </ScrollView>
       </SafeAreaView>
-      ;
     </LinearGradient>
   );
 }

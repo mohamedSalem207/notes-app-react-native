@@ -24,7 +24,7 @@ import { useState } from "react";
 export type Todo = Doc<"todos">;
 
 export default function HomeScreen() {
-  const { colors, isDarkMode } = useTheme();
+  const { colors } = useTheme();
 
   const homeStyles = createHomeStyles(colors);
 
